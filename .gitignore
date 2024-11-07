@@ -31,10 +31,20 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+.env*.local
 
 # vercel
 .vercel
 
+#vscode
+.vscode
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local Vercel folder
+.vercel
+
+# Local Netlify folder
+.netlify
